@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_praph"
+    app:startDestination="@id/covidOverviewFragment">
+
+    <fragment
+        android:id="@+id/covidOverviewFragment"
+        android:name="com.example.covid19.CovidOverviewFragment"
+        android:label="fragment_covid_overview"
+        tools:layout="@layout/fragment_covid_overview" />
+</navigation>
