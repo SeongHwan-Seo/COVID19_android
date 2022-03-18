@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/covidOverviewFragment"
-        android:name="com.example.covid19.CovidOverviewFragment"
+        android:name="com.example.covid19.view.CovidOverviewFragment"
         android:label="fragment_covid_overview"
         tools:layout="@layout/fragment_covid_overview" >
         <action
-            android:id="@+id/action_covidOverviewFragment_to_covidOverviewDetailFragment"
-            app:destination="@id/covidOverviewDetailFragment" />
+            android:id="@+id/action_covidOverviewFragment_to_covidDetailOverviewFragment"
+            app:destination="@id/covidDetailOverviewFragment" />
     </fragment>
-
     <fragment
-        android:id="@+id/covidOverviewDetailFragment"
-        android:name="com.example.covid19.CovidOverviewFragment"
-        android:label="fragment_covid_overview"
-        tools:layout="@layout/fragment_covid_overview" />
+        android:id="@+id/covidDetailOverviewFragment"
+        android:name="com.example.covid19.view.CovidDetailOverviewFragment"
+        android:label="fragment_covid_detail_overview"
+        tools:layout="@layout/fragment_covid_detail_overview" />
+
 </navigation>

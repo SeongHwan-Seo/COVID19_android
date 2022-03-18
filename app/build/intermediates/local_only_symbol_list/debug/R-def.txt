@@ -9,8 +9,9 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id action_covidOverviewFragment_to_covidOverviewDetailFragment
-id covidOverviewDetailFragment
+id action_covidOverviewFragment_to_covidDetailOverviewFragment
+id button
+id covidDetailOverviewFragment
 id covidOverviewFragment
 id nav_host_fragment
 id nav_praph
@@ -19,6 +20,7 @@ id textView2
 id textView3
 id textView4
 layout activity_main
+layout fragment_covid_detail_overview
 layout fragment_covid_overview
 mipmap ic_launcher
 mipmap ic_launcher_round

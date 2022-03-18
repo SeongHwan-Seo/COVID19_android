@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/COVID19/app/src/main/res/layout/activity_main.xml" value="0.18697916666666667" />
+        <entry key="..\:/COVID19/app/src/main/res/layout/fragment_covid_detail_overview.xml" value="0.38697916666666665" />
         <entry key="..\:/COVID19/app/src/main/res/layout/fragment_covid_overview.xml" value="0.33" />
       </map>
     </option>

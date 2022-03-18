@@ -1854,7 +1854,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
-id action_covidOverviewFragment_to_covidOverviewDetailFragment
+id action_covidOverviewFragment_to_covidDetailOverviewFragment
 id action_divider
 id action_image
 id action_menu_divider
@@ -1888,6 +1888,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1920,7 +1921,7 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
-id covidOverviewDetailFragment
+id covidDetailOverviewFragment
 id covidOverviewFragment
 id custom
 id customPanel
@@ -2335,6 +2336,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_covid_detail_overview
 layout fragment_covid_overview
 layout material_chip_input_combo
 layout material_clock_display
